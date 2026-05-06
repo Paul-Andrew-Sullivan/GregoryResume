@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gregory Goodfellow — Computer Science major at Calvin University. Backend developer, hackathon winner, systems optimizer.">
+  <title>Gregory Goodfellow | CS @ Calvin University</title>
+
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS Scroll Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAVBAR ──────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">GG<span class="accent-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="mailto:gregory.goodfellow4@gmail.com" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────── -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-greeting" data-aos="fade-down" data-aos-delay="100">Hello, I'm</p>
+      <h1 class="hero-name" data-aos="fade-down" data-aos-delay="200">Gregory Goodfellow</h1>
+      <div class="hero-typed-wrap" data-aos="fade-down" data-aos-delay="300">
+        <span id="typed-text" class="hero-typed"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-location" data-aos="fade-down" data-aos-delay="400">
+        <i class="fas fa-map-marker-alt"></i> Grand Rapids, MI &nbsp;·&nbsp;
+        <i class="fas fa-graduation-cap"></i> Calvin University &nbsp;·&nbsp; CS Class of 2027
+      </p>
+      <div class="hero-tags" data-aos="fade-up" data-aos-delay="500">
+        <span>Backend Development</span>
+        <span>Systems Optimization</span>
+        <span>Algorithms</span>
+        <span>Cloud Computing</span>
+        <span>Cybersecurity</span>
+      </div>
+      <div class="hero-actions" data-aos="fade-up" data-aos-delay="600">
+        <a href="tel:7085187835" class="hero-btn">
+          <i class="fas fa-phone"></i> 708-518-7835
+        </a>
+        <a href="mailto:gregory.goodfellow4@gmail.com" class="hero-btn">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://www.linkedin.com/in/gregorygoodfellow" target="_blank" rel="noopener" class="hero-btn hero-btn-ghost">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+    <a href="#education" class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+  <!-- ─── EDUCATION ────────────────────────────────────────────────── -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Background</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="edu-logo-wrap">
+          <div class="edu-logo-circle">
+            <span>CU</span>
+          </div>
+        </div>
+        <div class="edu-body">
+          <div class="edu-top">
+            <div class="edu-meta">
+              <h3>Calvin University</h3>
+              <p class="edu-degree">Bachelor of Science in Computer Science</p>
+              <p class="edu-location">
+                <i class="fas fa-map-marker-alt"></i> Grand Rapids, Michigan
+              </p>
+            </div>
+            <div class="edu-dates">
+              <span class="date-badge">2023 – 2027</span>
+            </div>
+          </div>
+          <div class="coursework-section">
+            <p class="coursework-label"><i class="fas fa-book-open"></i> Relevant Coursework</p>
+            <div class="tag-cloud">
+              <span class="course-tag">Data Structures &amp; Algorithms</span>
+              <span class="course-tag">Operating Systems &amp; Networking</span>
+              <span class="course-tag">Cloud Services</span>
+              <span class="course-tag">Programming Language Concepts</span>
+              <span class="course-tag">Computer Architecture</span>
+              <span class="course-tag">Excel &amp; Access Data Analysis</span>
+              <span class="course-tag">Azure</span>
+              <span class="course-tag">FastAPI</span>
+              <span class="course-tag">AI &amp; Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ───────────────────────────────────────────────── -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">History</span>
+        <h2 class="section-title">Experience</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="timeline">
+
+        <!-- C and T Lawn and Landscape -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+          <div class="tl-marker">
+            <div class="tl-icon"><i class="fas fa-leaf"></i></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-header">
+              <div class="tl-title-block">
+                <h3>C and T Lawn and Landscape</h3>
+                <p class="tl-role">Landscaper</p>
+                <p class="tl-location"><i class="fas fa-map-pin"></i> Lynwood, IL</p>
+              </div>
+              <div class="tl-dates">
+                <span class="date-pill">Jun–Sept 2024</span>
+                <span class="date-pill">Jun–Sept 2025</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Operated heavy equipment including skid loaders, forklifts, and dump trucks on commercial and residential job sites</li>
+              <li>Delivered <strong>75+ projects</strong> on time, earning consistent positive client reviews across two seasons</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Chicago Christian Schools -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+          <div class="tl-marker">
+            <div class="tl-icon"><i class="fas fa-laptop-code"></i></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-header">
+              <div class="tl-title-block">
+                <h3>Chicago Christian Schools</h3>
+                <p class="tl-role">IT Assistant</p>
+                <p class="tl-location"><i class="fas fa-map-pin"></i> Orland Park, IL</p>
+              </div>
+              <div class="tl-dates">
+                <span class="date-pill">Jun–Aug 2023</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Reformatted and deployed <strong>150 laptops</strong> with new Windows distributions ahead of the incoming school year</li>
+              <li>Provided hardware and software support for a user base of <strong>500+ staff and students</strong></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Horse Caretaker -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+          <div class="tl-marker">
+            <div class="tl-icon"><i class="fas fa-horse"></i></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-header">
+              <div class="tl-title-block">
+                <h3>Private Employer</h3>
+                <p class="tl-role">Horse Caretaker</p>
+                <p class="tl-location"><i class="fas fa-map-pin"></i> Beecher, IL</p>
+              </div>
+              <div class="tl-dates">
+                <span class="date-pill">Jan 2020–Sept 2023</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Managed scheduling, hours, and payments for a team of <strong>12 employees</strong></li>
+              <li>Oversaw daily care of <strong>45 horses</strong>, maintaining facility standards and animal health over 3+ years</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ClearPath — featured / full-width -->
+        <div class="project-card project-featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-glow"></div>
+          <div class="project-inner">
+            <div class="project-top-row">
+              <div class="project-icon-wrap">
+                <i class="fas fa-car-side"></i>
+              </div>
+              <span class="project-badge badge-gold">
+                <i class="fas fa-trophy"></i> 1st Place — Abstraction Hackathon 2026
+              </span>
+            </div>
+            <h3>ClearPath</h3>
+            <p class="project-subtitle">Python / React Native / FastAPI / YOLOv8</p>
+            <p class="project-desc">A hands-free AI driving assistant built for visually disadvantaged and aging drivers. Delivers real-time audio cues for traffic lights, pedestrians, and road signs via YOLOv8 object detection — with zero required user interaction.</p>
+            <ul class="project-bullets">
+              <li>Integrated <strong>4 language options</strong> with community-recorded voice prompts (Calvin student recordings) to maximize accessibility</li>
+              <li>Full-stack mobile application: React Native frontend + FastAPI backend</li>
+              <li>Won <strong>1st place</strong> at Calvin University's 2026 Abstraction Hackathon (theme: "Called to Create")</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech python">Python</span>
+              <span class="tech react">React Native</span>
+              <span class="tech fastapi">FastAPI</span>
+              <span class="tech yolo">YOLOv8</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Poker GTO Advisor -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-inner">
+            <div class="project-top-row">
+              <div class="project-icon-wrap">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <span class="project-year">2024 – 2025</span>
+            </div>
+            <h3>Poker GTO Advisor</h3>
+            <p class="project-subtitle">C++ decision analysis tool</p>
+            <p class="project-desc">Applies Game Theory Optimal (GTO) concepts to real-time poker strategy using a custom hand evaluator and range analysis engine.</p>
+            <ul class="project-bullets">
+              <li>Hand evaluator &amp; range analysis engine with custom C++ data structures</li>
+              <li>Optimal bet sizing and pot equity calculations</li>
+              <li>Improved per-session profit by <strong>10%</strong></li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech cpp">C++</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- FiveM Server -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-inner">
+            <div class="project-top-row">
+              <div class="project-icon-wrap">
+                <i class="fas fa-gamepad"></i>
+              </div>
+              <span class="project-badge badge-green">
+                <i class="fas fa-circle pulse-dot"></i> Live
+              </span>
+            </div>
+            <h3>FiveM Server Development</h3>
+            <p class="project-subtitle">GTA V Multiplayer Infrastructure · 2025–Present</p>
+            <p class="project-desc">Custom game scripting and server infrastructure for a live GTA V multiplayer server with an active player base.</p>
+            <ul class="project-bullets">
+              <li>Gameplay systems &amp; UI features in C# and Lua using Vim/Neovim</li>
+              <li>Optimized performance for <strong>75+ concurrent players</strong></li>
+              <li>Multi-script codebase managed with Git version control</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech csharp">C#</span>
+              <span class="tech lua">Lua</span>
+              <span class="tech git">Git</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alarm Clock App -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="project-inner">
+            <div class="project-top-row">
+              <div class="project-icon-wrap">
+                <i class="fas fa-clock"></i>
+              </div>
+              <span class="project-year">2025 – 2026</span>
+            </div>
+            <h3>Alarm Clock &amp; Scheduling App</h3>
+            <p class="project-subtitle">Python dashboard with live weather integration</p>
+            <p class="project-desc">A Python dashboard integrating a real-time alarm clock with live weather data sourced from the OpenWeatherMap API.</p>
+            <ul class="project-bullets">
+              <li>OpenWeatherMap API with network geolocation for location-based forecasts</li>
+              <li>Local time sync &amp; configurable alarm scheduling system</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech python">Python</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────────────────────────── -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Toolkit</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Languages -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="skill-cat-title"><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-items">
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                   alt="C++" onerror="this.style.display='none'">
+              <span>C++</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                   alt="Python" onerror="this.style.display='none'">
+              <span>Python</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                   alt="Java" onerror="this.style.display='none'">
+              <span>Java</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                   alt="C#" onerror="this.style.display='none'">
+              <span>C#</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg"
+                   alt="Lua" onerror="this.style.display='none'">
+              <span>Lua</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg"
+                   alt="Ruby" onerror="this.style.display='none'">
+              <span>Ruby</span>
+            </div>
+            <div class="skill-chip skill-chip-text">
+              <span class="chip-letter">A</span>
+              <span>Ada</span>
+            </div>
+            <div class="skill-chip skill-chip-text">
+              <span class="chip-letter">λ</span>
+              <span>Clojure</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks & Platforms -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="skill-cat-title"><i class="fas fa-layer-group"></i> Frameworks &amp; Platforms</h3>
+          <div class="skill-items">
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                   alt="React Native" onerror="this.style.display='none'">
+              <span>React Native</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+                   alt="FastAPI" onerror="this.style.display='none'">
+              <span>FastAPI</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+                   alt="Azure" onerror="this.style.display='none'">
+              <span>Azure</span>
+            </div>
+            <div class="skill-chip skill-chip-text">
+              <span class="chip-letter">5M</span>
+              <span>FiveM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Developer Tools -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+          <h3 class="skill-cat-title"><i class="fas fa-tools"></i> Developer Tools</h3>
+          <div class="skill-items">
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                   alt="Git" onerror="this.style.display='none'">
+              <span>Git</span>
+            </div>
+            <div class="skill-chip">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vim/vim-original.svg"
+                   alt="Vim/Neovim" onerror="this.style.display='none'">
+              <span>Vim / Neovim</span>
+            </div>
+            <div class="skill-chip skill-chip-text">
+              <i class="fab fa-microsoft chip-icon"></i>
+              <span>MS Office</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="350">
+          <h3 class="skill-cat-title"><i class="fas fa-users"></i> Soft Skills</h3>
+          <div class="soft-tags">
+            <span><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+            <span><i class="fas fa-people-arrows"></i> Teamwork</span>
+            <span><i class="fas fa-microphone"></i> Public Speaking</span>
+            <span><i class="fas fa-tasks"></i> Organization</span>
+          </div>
+        </div>
+
+        <!-- Areas of Interest — full row -->
+        <div class="skill-category interest-category" data-aos="fade-up" data-aos-delay="400">
+          <h3 class="skill-cat-title"><i class="fas fa-lightbulb"></i> Areas of Interest</h3>
+          <div class="interest-tags">
+            <span><i class="fas fa-server"></i> Backend Development</span>
+            <span><i class="fas fa-gamepad"></i> Game Scripting</span>
+            <span><i class="fas fa-tachometer-alt"></i> Systems Optimization</span>
+            <span><i class="fas fa-project-diagram"></i> Algorithms</span>
+            <span><i class="fas fa-cloud"></i> Cloud Computing</span>
+            <span><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── AWARDS ────────────────────────────────────────────────────── -->
+  <section id="awards" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Recognition</span>
+        <h2 class="section-title">Awards &amp; Honors</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="awards-grid">
+
+        <div class="award-card award-featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="award-icon-wrap gold">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-body">
+            <h3>1st Place — Abstraction Hackathon</h3>
+            <p class="award-org">Calvin University · 2026</p>
+            <p class="award-desc">Awarded first place for <em>ClearPath</em>, a hands-free AI driving assistant for visually disadvantaged drivers. Theme: "Called to Create."</p>
+          </div>
+        </div>
+
+        <div class="award-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="award-icon-wrap blue">
+            <i class="fas fa-cross"></i>
+          </div>
+          <div class="award-body">
+            <h3>Christian Service Award</h3>
+            <p class="award-org">High School</p>
+          </div>
+        </div>
+
+        <div class="award-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="award-icon-wrap silver">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="award-body">
+            <h3>Cadet Council Silver Star</h3>
+            <p class="award-org">Outstanding Junior Counselor</p>
+          </div>
+        </div>
+
+        <div class="award-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="award-icon-wrap silver">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div class="award-body">
+            <h3>Cadet National Silver Star</h3>
+            <p class="award-org">Outstanding Junior Counselor</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────────── -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-name">Gregory Goodfellow</p>
+          <p class="footer-tagline">Computer Science @ Calvin University · Class of 2027</p>
+        </div>
+        <div class="footer-contact">
+          <a href="tel:7085187835"><i class="fas fa-phone"></i> 708-518-7835</a>
+          <a href="mailto:gregory.goodfellow4@gmail.com"><i class="fas fa-envelope"></i> gregory.goodfellow4@gmail.com</a>
+          <a href="https://www.linkedin.com/in/gregorygoodfellow" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+      <p class="footer-copy">Grand Rapids, MI 49546</p>
+    </div>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
